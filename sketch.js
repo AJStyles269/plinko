@@ -16,7 +16,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  ground = new Ground(0, 725, 1200, 10);
+  ground = new Ground(600, 780, 1200, 10);
 
   stand1 = new Division(0, 680, 10, 200);
   stand2 = new Division(80, 680, 10, 200);
